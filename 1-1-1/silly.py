@@ -1,15 +1,20 @@
 import turtle as trtl
 a=trtl.Turtle()
 color=input("Choose a color: ")
-a.color(color)
+color2=input("Choose another color: ")
+
 a.speed(0)
 step=1
 a.goto(0,0)
 while True:
     a.forward(step)
     a.right(179)
-    a.circle(step,360,50)
+    a.circle(step,360,20)
     step+=0.5
+    if a.color() == color:
+        a.color(color2)
+    else:
+        a.color(color)
 
 wn=trtl.Screen()
 wn.mainloop()
