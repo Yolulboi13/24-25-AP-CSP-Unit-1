@@ -53,7 +53,7 @@ for step in range(7): # forward 3
     turn_left()
 '''
 
-''' Maze #3 Solution
+'' #Maze #3 Solution
 for step in range(3):
   turn_left()
 for step in range(4):
@@ -63,6 +63,6 @@ for step in range(4):
   for instep in range(3):
     turn_left()
 #---- end robot movement 
-'''
+''
 
 wn.mainloop()
