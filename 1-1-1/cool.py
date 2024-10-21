@@ -1,8 +1,7 @@
 import turtle as trtl
 a=trtl.Turtle()
 step=1
+a.speed(0)
 while True:
-    a.forward(step/2)
-    a.right(step)
-    a.circle(step,step,step)
-    step+=10
+    a.(step,step,step)
+    step=step+1
