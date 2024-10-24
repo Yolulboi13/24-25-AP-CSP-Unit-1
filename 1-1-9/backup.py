@@ -63,7 +63,7 @@ def frame1():
     cat.right(90)
     cat.forward(50)
     
-    
+
 
 def frame2():
     # body
